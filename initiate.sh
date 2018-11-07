@@ -9,8 +9,11 @@ yum install libGLU libXrandr libXcursor libXinerama -y
 wget http://bio3d.colorado.edu/imod/AMD64-RHEL5/imod_4.9.6_RHEL7-64_CUDA8.0.sh
 sh ./imod_4.9.6_RHEL7-64_CUDA8.0.sh -y
 
-set AWS_ACCESS_KEY_ID=AKIAID3NGEATKBSMPNDQ
-set AWS_SECRET_ACCESS_KEY=iwjO61wNgO7SWTWRUMjsRgzBC1kGLIZczOWjBpVn
+# replace **** with your own AWS ID
+set AWS_ACCESS_KEY_ID=*******
+
+# replace *** with your own AWS Key
+set AWS_SECRET_ACCESS_KEY=*******
 
 #install desktop redhat linux
 #!/bin/bash
